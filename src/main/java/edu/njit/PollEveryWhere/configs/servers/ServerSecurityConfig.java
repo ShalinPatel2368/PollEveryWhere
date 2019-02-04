@@ -38,7 +38,7 @@ public class ServerSecurityConfig extends WebSecurityConfigurerAdapter
 	public void configure(WebSecurity web) throws Exception
 	{
 		// TODO Auto-generated method stub
-		web.ignoring().antMatchers("/api/**", "login/signup", "/otp/**", "/**.html","/resources/**");
+		web.ignoring().antMatchers("/api/**", "login/signup", "/otp/**","/mdb/**", "/**.html","/**.css");
 		super.configure(web);
 	}
 
